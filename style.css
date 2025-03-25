@@ -502,20 +502,11 @@ a img.aligncenter {
 	letter-spacing: 0px;
 	text-transform: uppercase;
 }
-@media (max-width: 768px) {
-    .top-navbar .navbar-light .navbar-nav .nav-item::after {
-        left: 120%; /* Ajusta el posicionamiento */
-        top: 8px; /* Cambia la posición según sea necesario */
-        width: 4px; /* Escala para pantallas más pequeñas */
-        height: 4px;
-        opacity: 1; /* Hazlo visible si es necesario */
-        transition: all 700ms ease; /* Ajusta la velocidad de la transición */
-    }
-}
+
 .top-navbar .navbar-light .navbar-nav .nav-item::after {
     position: absolute;
     content: '';
-    left: 150%;
+    left: 50%;
     bottom: auto;
     top: 11px;
     width: 5px;
